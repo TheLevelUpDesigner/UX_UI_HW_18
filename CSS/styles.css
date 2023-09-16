@@ -1,0 +1,165 @@
+/* Navigation Bar*/
+#navBar {
+    display: grid;
+    grid-template-columns: 80px 425px 80px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 864px;
+}
+
+.logo {
+    margin-left: 80px;
+    size: 96px 96px;
+}
+
+.inline-block {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    gap: 8px;
+}
+
+#hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    margin-right: 80px;
+    grid-column: start;
+}
+
+.rectangle1 {
+    width: 88px;
+    height: 13px;
+    background: #C60000;
+}
+
+.rectangle2 {
+    width: 56px;
+    height: 13px;
+    background: #C60000;
+}
+
+.rectangle3 {
+    width: 24px;
+    height: 13px;
+    background: #C60000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 452px;
+    margin-right: 452px;
+}
+
+nav ul li {
+    color: #C60000;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 56px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageTitle h1 {
+    display: flex;
+    justify-content: center;
+    color: #FF7A00;
+    font-family: SF Pro Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.skill1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 438px;
+    height: 380px;
+    background: #FFF;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.skill2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 438px;
+    height: 380px;
+    background: #FFF;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.skill3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 438px;
+    height: 380px;
+    background: #FFF;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.subTitle h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C60000;
+    font-family: SF Pro Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 136px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+footer p {
+    color: #C60000;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 64px;
+    margin-right: 64px;
+}
+
+@media (max-width: 1200px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul {
+        display: none;
+    }
+}
